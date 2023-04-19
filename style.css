@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+section.normal {
+    background-color: #282E34;
+    color: #DDDDDD;
+    text-align: center;
+    padding:7%;
+    line-height: 2em;
+
+}
+section.principal {
+    height: 615px;
+    text-align: center;
+    background-color: black;
+    background-image: url(imagens/principal.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.branca {
+    background-color: #F4F4F4;
+    color: black;
+    text-align: center;
+    padding:7%;
+    line-height: 2em;
+}
+section.imagem {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10%
+}
+section#dois {
+    background-image: url(imagens/luzes.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section#tres {
+    background-image: url(imagens/predios.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.inicio {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    color:#DDDDDD ;
+}
+h1.principais {
+    background-color: #585858d8;
+    text-align: center;
+    padding: 10px;
+}
+p {
+    font-size: 1em;
+    line-height: 2em;
+}
+div.footer {
+    background-color: #585858d8;
+    position: absolute;
+    bottom: -300%;
+    right: 41%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #a1a1a1;
+}
+
+
+
+
